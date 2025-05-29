@@ -1,0 +1,7 @@
+function printSub(){
+    let f1=parseFloat(prompt("enter a number: "));
+    let f2=parseFloat(prompt("enter a number: "));
+    let sub=(f1-f2).toFixed(3);
+    console.log(`The Subtract is: ${sub}`);
+}
+printSub();
