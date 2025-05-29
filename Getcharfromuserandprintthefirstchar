@@ -1,0 +1,5 @@
+function printChar(){
+    let char=prompt("enter a char: ");
+    console.log("The char is ",char.charAt(0));
+}
+printChar();
