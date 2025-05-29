@@ -1,0 +1,11 @@
+function getAnumber(message){
+    let input=prompt(message);
+    return parseInt(input);
+}
+function product(){
+    let n1= getAnumber("Enter a number1:");
+    let n2= getAnumber("Enter a number2:");
+    let mult=n1*n2;
+    console.log("The Multiplication is: ",mult);
+}
+product();
