@@ -1,0 +1,14 @@
+function addNumber(n){
+    let sum=0;
+    for(let i=0;i<n;i++){
+        let num=parseInt(prompt("Enter the number:"));
+        sum+=num;
+    }
+    return sum;
+}
+function main(){
+    let n = parseInt(prompt ("Enter the iteration:"));
+    let result=addNumber(n);
+    console.log(`Addition of ${n} number is:${result}`);
+}
+main();
